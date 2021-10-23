@@ -1,3 +1,5 @@
+import "./Nav.scss";
+
 export default function Nav(props) {
   return(
     <div className="navbar-container">
