@@ -2,11 +2,13 @@
   display: flex;
   list-style-type: none;
   margin-bottom: 0;
+  margin-top: 1em;
   // border: 2px solid black;
 }
 
 .link-item {
   text-decoration: none;
+  color: white;
 }
 
 .social-link-item {
@@ -27,7 +29,8 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  border: 2px solid black;
+  // border: 2px solid black;
+  background-color: grey;
   margin: auto;
   width: 100%;
 }
