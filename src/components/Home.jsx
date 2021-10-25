@@ -3,7 +3,8 @@ import { useEffect } from "react";
 export default function Home(props) {
 
   useEffect(() => {
-    document.title = "Tim Zheng - Personal Portfolio Page"
+    props.setTitle("Tim Zheng | Full-Stack Web Developer")
+    // document.title = "Tim Zheng - Personal Portfolio Page"
   }, []);
   
   return (

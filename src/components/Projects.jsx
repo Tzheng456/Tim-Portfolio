@@ -3,7 +3,8 @@ import { useEffect } from "react";
 export default function Projects(props) {
 
   useEffect(() => {
-    document.title = "My Projects"
+    props.setTitle("My Projects")
+    // document.title = "My Projects"
   }, []);
 
   return (
