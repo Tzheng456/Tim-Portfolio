@@ -2,9 +2,15 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  align-items: center;
-  border: 3px solid black;
-  padding: 2em;
-  width: 50%;
+  align-items: flex-start;
+  color: #313638;
+  width: 700px;
   margin-top: 2em;
+  border-bottom: 1px solid #313638;
+}
+
+.home-body-text {
+  margin: auto;
+  padding-top: 2em;
+  width: 700px;
 }
