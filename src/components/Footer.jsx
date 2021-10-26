@@ -19,7 +19,7 @@ export default function Footer(props) {
       </div>
       <div className="copyright-msg">
         <p>
-          © 2021 <a href="http://github.com/Tzheng456">Tim Zheng</a>. All rights reserved.
+          © 2021 <a href="http://github.com/Tzheng456">Tim Zheng</a> All rights reserved.
         </p>
       </div>
     </div>
