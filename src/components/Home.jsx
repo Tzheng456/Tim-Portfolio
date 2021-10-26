@@ -8,7 +8,7 @@ export default function Home(props) {
   }, []);
   
   return (
-    <div>
+    <div className="home-main-container">
       <div className="name-and-introduction-container">
         <h1>Tim Zheng</h1>
         <h3>Full-Stack Web Developer</h3>

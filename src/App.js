@@ -13,7 +13,7 @@ function App() {
     document.title = title;
   }, [title]);
   return (
-    <div>
+    <div className="app-main-container">
       <Nav></Nav>
       <div className="navbar-spacer"></div>
       <Switch>
